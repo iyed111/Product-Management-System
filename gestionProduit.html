@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+
+        <div class="head">
+            <h2>My WareHouse</h2>
+            <p>PRUDUCT MANAGER SYSTEM</p>
+        </div>
+
+
+
+        <div class="inputs">
+            <input type="text" id="title" placeholder="title">
+            <div class="price">
+                <input onkeyup="getTotal()" type="number" id="price" placeholder="prix">
+                <input onkeyup="getTotal()" type="number" id="taxes" placeholder="taxes">
+                <input onkeyup="getTotal()" type="number" id="ads" placeholder="publicite">
+                <input onkeyup="getTotal()" type="number" id="discount" placeholder="remise">
+                <small id="total">999999</small>
+            </div>
+
+            <input type="number" id="count" placeholder="quantite">
+            <input type="text" id="category" placeholder="categorie">
+            <button id="submit">Créer</button>
+
+
+
+
+        </div>
+
+
+
+
+
+
+        <div class="outputs">
+            <div class="searchBlock">
+                <input onkeyup="searchData(this.value)" type="text" id="search" placeholder="Recherche">
+                <div class="btnSearch">
+                    <button onclick="getSearchMode(this.id)" id="searchTitle">Recherche par titre</button>
+                    <button onclick="getSearchMode(this.id)" id="searchCategory">Recherche par categorie</button>
+
+                </div>
+            </div>
+
+            <div id="deleteAll">
+
+            </div>
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Titre</th>
+                    <th>Prix</th>
+                    <th>Taxes</th>
+                    <th>publicite</th>
+                    <th>Remises</th>
+                    <th>Total</th>
+                    <th>Categorie</th>
+                    <th>Mise a jour</th>
+                    <th>Effacer</th>
+                </tr>
+
+                <tbody id="tbody">
+                      
+                   
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="gestionProduit.js" ></script>
+</body>
+</html>
