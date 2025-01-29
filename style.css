@@ -50,16 +50,16 @@ input:focus{
 button{
     width: 100%;
     height: 30px;
-    border: #1f002c;
+    border: #00388d;
     cursor: pointer;
-    background: hwb(283 2% 58%);
+    background: hwb(194 2% 58%);
     color: #fff;
     border-radius: 10px;
     transition: 0.5s;
 }
 
 button:hover{
-    background: hwb(283 4% 40%);
+    background: hwb(200 5% 29%);
     letter-spacing: 1px;
 
 }
