@@ -1,4 +1,4 @@
-# Product Management System
+# Product Management System in JS
 
 A fully functional product management system that allows users to manage products dynamically. This project demonstrates the use of modern JavaScript features and localStorage for data persistence.
 
