@@ -1,4 +1,6 @@
 # Product Management System in JS
+image :
+![Image](https://github.com/user-attachments/assets/6fe0a332-e3a0-4ad8-b26c-073d527b41fa)
 
 A fully functional product management system that allows users to manage products dynamically. This project demonstrates the use of modern JavaScript features and localStorage for data persistence.
 
