@@ -1,4 +1,4 @@
-# Product Management System in JS
+# Product Management System using JS
 image :
 ![Image](https://github.com/user-attachments/assets/6fe0a332-e3a0-4ad8-b26c-073d527b41fa)
 
